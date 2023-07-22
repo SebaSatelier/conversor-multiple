@@ -1,11 +1,17 @@
 package com.ss.conversorMultiple.Logica;
 
+import com.ss.conversorMultiple.GUI.ConversorMenu;
+
 
 public class ConversorMultiple {
 
     
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        ConversorMenu menu = new ConversorMenu();
+        
+        menu.setVisible(true);
+        menu.setLocationRelativeTo(null);
     }
     
 }
