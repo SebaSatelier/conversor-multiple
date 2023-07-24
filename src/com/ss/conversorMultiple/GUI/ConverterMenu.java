@@ -34,7 +34,7 @@ public class ConverterMenu extends javax.swing.JFrame {
         titleLabel.setText("Conversor Múltiple");
 
         menuBox.setFont(new java.awt.Font("Chakra Petch", 0, 13)); // NOI18N
-        menuBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Conversor Moneda", "Conversor Temperatura", "Conversor Métrico" }));
+        menuBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Conversor Moneda", "Conversor Temperatura" }));
 
         aceptButton.setFont(new java.awt.Font("Chakra Petch", 0, 13)); // NOI18N
         aceptButton.setText("Aceptar");
@@ -92,7 +92,7 @@ public class ConverterMenu extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 600, Short.MAX_VALUE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 612, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
