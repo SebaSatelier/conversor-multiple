@@ -114,6 +114,10 @@ public class ConverterMenu extends javax.swing.JFrame {
                 currency.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
                 break;
             case "Conversor Temperatura":
+                TemperatureMenu temperature = new TemperatureMenu();
+                temperature.setVisible(true);
+                temperature.setLocationRelativeTo(null);
+                temperature.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
                 break;
             case "Conversor Métrico":    
                 break;
